@@ -1,8 +1,9 @@
-//変数の宣言
-let bmi
+//体重と身長を変数に代入
+let weight=68;
+let height=1.7;
 
-// 値の代入
-bmi=68/(1.7*1.7);
+// BMI計算
+let bmi=weight/(height*height)
 
 //コンソールへの出力
 console.log(bmi);
